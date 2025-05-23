@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Star Family - Interior Designer" />
+  <meta name="keywords" content="Interior Design, Home Decor, Star Family, Designer" />
+  <meta name="author" content="Star Family Interiors" />
+  <title>Star Family | Interior Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fffaf7;
+      color: #333;
+    }
+
+    header {
+      background: #181818;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #ffb400;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1618221512649-1f664b1fbb1c') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 10px black;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 60px 40px;
+    }
+
+    .section h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .about, .contact {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .contact a {
+      color: #181818;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #181818;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Star Family</h1>
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Transforming Spaces with Elegance</h2>
+  </section>
+
+  <section class="section" id="portfolio">
+    <h3>Our Work</h3>
+    <div class="gallery">
+      <img src="img1.jpeg" alt="Interior 1">
+      <img src="img2.jpeg" alt="Interior 2">
+      <img src="img3.jpeg" alt="Interior 3">
+      <img src="img4.jpeg" alt="Interior 4">
+      <img src="img5.jpeg" alt="Interior 5">
+      <img src="img6.jpeg" alt="Interior 6">
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <h3>About Us</h3>
+    <p>At Star Family Interior Designers, we specialize in turning your living spaces into works of art. Our experienced team blends creativity with functionality to deliver spaces that speak of comfort and class.</p>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h3>Contact Us</h3>
+    <p>Email us: <a href="mailto:starfamilyinterior@example.com">starfamilyinterior@example.com</a></p>
+    <p>Call us: <a href="tel:+919999999999">+91 99999 99999</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Star Family Interior Designer. All rights reserved.
+  </footer>
+</body>
+
+</html>
